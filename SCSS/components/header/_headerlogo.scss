@@ -1,0 +1,31 @@
+.header__logo {
+  display: inline-block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: var(--activ-link-but);
+  text-decoration: none;
+  font-family: var(--secondary-fons);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+
+    span{
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      font-family: var(--secondary-fons);
+    }
+
+
+    @include tablet {
+      padding-top: 26px;
+      padding-bottom: 26px;
+    }
+
+    @include desktop {
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 1.2;
+      letter-spacing: 0.03em;
+      }
+    }

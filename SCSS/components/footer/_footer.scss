@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+
+    &__container{
+      text-align: center;
+
+      @include tablet {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-around;
+      }
+
+      @include desktop {
+        text-align: start;
+        justify-content: flex-start;
+        align-items: baseline;
+      }
+    }
+
+    &__wraper{
+    @include desktop {
+      margin-right: 70px
+    }
+  }
+}

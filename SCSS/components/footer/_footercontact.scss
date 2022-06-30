@@ -1,0 +1,36 @@
+.footer__address {
+    margin-top: 20px;
+  }
+
+  .footer__contact-list:not(:last-child) {
+    margin-bottom: 8px;
+
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 9px;
+    }
+  }
+
+  .footer__contact-map {
+    margin-top: 20px;
+    color: var(--white);
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14px;
+    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+      &:hover,
+      &:focus{
+        color: var(--activ-link-but);
+  }}
+
+  .footer__contact {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14px;
+    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+      &:hover,
+      &:focus{
+        color: var(--activ-link-but);
+  }}

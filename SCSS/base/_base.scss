@@ -1,0 +1,27 @@
+@import "./reset";
+body {
+  color: var(--main-color);
+  background-color: var(--white);
+  font-family: var(--main-fons);
+}
+.no-scroll{
+overflow-y: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+}
+
+.section {
+  @media screen and (max-width: 1199px){
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @media screen and (min-width: 1200px){
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}

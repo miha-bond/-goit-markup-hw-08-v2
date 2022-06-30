@@ -1,0 +1,25 @@
+
+/*Базові стилі*/
+@import "./base/base";
+
+/*Утиліти*/
+@import "./utils/mixin";
+@import "./utils/titlehidung";
+@import "./utils/variabels";
+@import "./base/conteiner";
+
+/*Стилі хедера*/
+@import "./components/header/index-header";
+
+
+/*Стилі сторінки Герой*/
+@import "./components/hero/index-hero";
+
+
+/*Стилі сторінки Портфоліо*/
+
+
+
+/*Стилі футера*/
+@import "./components/footer/index-footer";
+

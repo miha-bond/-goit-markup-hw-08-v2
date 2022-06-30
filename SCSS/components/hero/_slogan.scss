@@ -1,0 +1,45 @@
+.slogan {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #2f303a;
+    text-align: center;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Imgbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+    &__text {
+      color: var(--white);
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 1.4;
+      text-align: center;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    &__button {
+      margin-top: 40px;
+      width: 200px;
+      height: 50px;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.87;
+      text-align: center;
+      letter-spacing: 0.06em;
+      color: var(--white);
+      background-color: var(--activ-link-but);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 4px;
+      border: var(--activ-link-but);
+      cursor: pointer;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &__button:hover,
+    &__button:focus {
+      background-color: #188ce8;
+  }}

@@ -1,0 +1,26 @@
+.footer__logo {
+  color: var(--activ-link-but);
+  text-decoration: none;
+  font-family: var(--secondary-fons);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  @media screen and (max-width: 768px) {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+  span {
+    text-align: center;
+    color: var(--white);
+    text-decoration: none;
+    font-family: var(--secondary-fons);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+  }
+}
