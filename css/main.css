@@ -276,11 +276,13 @@ img {
   margin-top: auto;
 }
 
-.header__wrap {
+.header__nav,
+.header__contact-list {
   display: none;
 }
 @media screen and (min-width: 768px) {
-  .header__wrap {
+  .header__nav,
+.header__contact-list {
     display: flex;
     align-items: baseline;
   }
@@ -372,7 +374,8 @@ img {
 
 .header__contact-link {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  align-items: baseline;
   color: var(--complementary-color);
   font-weight: 500;
   font-size: 12px;

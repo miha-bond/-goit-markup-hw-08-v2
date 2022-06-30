@@ -3,8 +3,10 @@
   margin-left: auto;
   flex-direction: column;
 
+
     @include desktop {
       flex-direction: row;
+
 
     }
 }
@@ -28,7 +30,9 @@
 
   .header__contact-link {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    align-items: baseline;
+
     color: var(--complementary-color);
     font-weight: 500;
     font-size: 12px;
@@ -48,6 +52,7 @@
   .header__contact-icon{
     margin-right: 8px;
     fill: currentColor;
+
 
     @include desktop {
       margin-right: 10px;

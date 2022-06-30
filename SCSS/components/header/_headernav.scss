@@ -1,4 +1,5 @@
-.header__wrap{
+.header__nav,
+.header__contact-list{
   display: none;
 
   @include tablet {
