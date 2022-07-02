@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ВебСтудия</title>
+    <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -186,12 +186,35 @@
             <li class="portfolio__list-item">
               <a class="portfolio__link" href="">
                 <div class="portfolio__thumb">
-                  <img
-                    src="./images/imag1.jpg"
-                    alt="Ноудтун с сайтом"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/mobile/portfolio/img@1x-1.jpg 1x,
+                        ./images/mobile/portfolio/img@2x-1.jpg 2x
+                      "
+                      media="(min-wudth: 480px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/portfolio/img@1x-1.jpg 1x,
+                        ./images/tablet/portfolio/img@2x-1.jpg 2x
+                      "
+                      media="(min-wudth: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/desktop/portfolio/img@1x-1.jpg 1x,
+                        ./images/desktop/portfolio/img@2x-1.jpg 2x
+                      "
+                      media="(min-wudth: 1200px)"
+                    />
+                    <img
+                      src="./images/mobile/portfolio/img@1x-1.jpg"
+                      alt="Ноудтун с сайтом"
+                      width="450"
+                      height="294"
+                    />
+                  </picture>
                   <p class="portfolio__descr">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
@@ -207,12 +230,33 @@
             <li class="portfolio__list-item">
               <a class="portfolio__link" href="">
                 <div class="portfolio__thumb">
-                  <img
-                    src="./images/imag2.jpg"
-                    alt="Баскетболисты"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/mobile/portfolio/img@1x-2.jpg 1x,
+                        ./images/mobile/portfolio/img@2x-2.jpg 2x
+                      "
+                      media="(min-width: 480px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/portfolio/img@1x-2.jpg 1x,
+                        ./images/tablet/portfolio/img@2x-2.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/desktop/portfolio/img@1x-2.jpg 1x,
+                        ./images/desktop/portfolio/img@2x-2.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <img
+                      src="./images/mobile/portfolio/img@1x-2.jpg"
+                      alt="Баскетболисты"
+                    />
+                  </picture>
                   <p class="portfolio__descr">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
@@ -230,12 +274,36 @@
             <li class="portfolio__list-item">
               <a class="portfolio__link" href="">
                 <div class="portfolio__thumb">
-                  <img
-                    src="./images/imag3.jpg"
-                    alt="Рыба с надписью"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/mobile/portfolio/img@1x-3.jpg 1x,
+                        ./images/mobile/portfolio/img@2x-3.jpg 2x
+                      "
+                      media="(min-width: 480px)"
+                      type="imeg/jpg"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/portfolio/img@1x-3.jpg 1x,
+                        ./images/tablet/portfolio/img@2x-3.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="imeg/jpg"
+                    />
+                    <source
+                      srcset="
+                        ./images/desktop/portfolio/img@1x-3.jpg 1x,
+                        ./images/desktop/portfolio/img@2x-3.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                      type="imeg/jpg"
+                    />
+                    <img
+                      src="./images/mobile/portfolio/img@1x-3.jpg"
+                      alt="Рыба с надписью"
+                    />
+                  </picture>
                   <p class="portfolio__descr">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
@@ -251,12 +319,33 @@
             <li class="portfolio__list-item">
               <a class="portfolio__link" href="">
                 <div class="portfolio__thumb">
-                  <img
-                    src="./images/imag4.jpg"
-                    alt="Наушники"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/mobile/portfolio/img@1x-4.jpg 1x,
+                        ./images/mobile/portfolio/img@2x-4.jpg 2x
+                      "
+                      media="(min-width: 480px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/portfolio/img@1x-4.jpg 1x,
+                        ./images/tablet/portfolio/img@2x-4.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/desktop/portfolio/img@1x-4.jpg 1x,
+                        ./images/desktop/portfolio/img@2x-4.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <img
+                      src="./images/mobile/portfolio/img@1x-4.jpg"
+                      alt="Наушники"
+                    />
+                  </picture>
                   <p class="portfolio__descr">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
@@ -272,12 +361,33 @@
             <li class="portfolio__list-item">
               <a class="portfolio__link" href="">
                 <div class="portfolio__thumb">
-                  <img
-                    src="./images/imag5.jpg"
-                    alt="Две коробки"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/mobile/portfolio/img@1x-5.jpg 1x,
+                        ./images/mobile/portfolio/img@2x-5.jpg 2x
+                      "
+                      media="(min-width: 480px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/portfolio/img@1x-5.jpg 1x,
+                        ./images/tablet/portfolio/img@2x-5.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/desktop/portfolio/img@1x-5.jpg 1x,
+                        ./images/desktop/portfolio/img@2x-5.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <img
+                      src="./images/mobile/portfolio/img@1x-5.jpg"
+                      alt="Две коробки"
+                    />
+                  </picture>
                   <p class="portfolio__descr">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
@@ -293,12 +403,33 @@
             <li class="portfolio__list-item">
               <a class="portfolio__link" href="">
                 <div class="portfolio__thumb">
-                  <img
-                    src="./images/imag6.jpg"
-                    alt="Мак"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/mobile/portfolio/img@1x-6.jpg 1x,
+                        ./images/mobile/portfolio/img@2x-6.jpg 2x
+                      "
+                      media="(min-width: 480px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/portfolio/img@1x-6.jpg 1x,
+                        ./images/tablet/portfolio/img@2x-6.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/desktop/portfolio/img@1x-6.jpg 1x,
+                        ./images/desktop/portfolio/img@2x-6.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <img
+                      src="./images/mobile/portfolio/img@1x-6.jpg"
+                      alt="Мак"
+                    />
+                  </picture>
                   <p class="portfolio__descr">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
@@ -314,12 +445,33 @@
             <li class="portfolio__list-item">
               <a class="portfolio__link" href="">
                 <div class="portfolio__thumb">
-                  <img
-                    src="./images/imag7.jpg"
-                    alt="Журнал"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/mobile/portfolio/img@1x-7.jpg 1x,
+                        ./images/mobile/portfolio/img@2x-7.jpg 2x
+                      "
+                      media="(min-width: 480px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/portfolio/img@1x-7.jpg 1x,
+                        ./images/tablet/portfolio/img@2x-7.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/desktop/portfolio/img@1x-7.jpg 1x,
+                        ./images/desktop/portfolio/img@2x-7.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <img
+                      src="./images/mobile/portfolio/img@1x-7.jpg"
+                      alt="Журнал"
+                    />
+                  </picture>
                   <p class="portfolio__descr">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
@@ -335,12 +487,33 @@
             <li class="portfolio__list-item">
               <a class="portfolio__link" href="">
                 <div class="portfolio__thumb">
-                  <img
-                    src="./images/imag8.jpg"
-                    alt="Этикетка"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/mobile/portfolio/img@1x-8.jpg 1x,
+                        ./images/mobile/portfolio/img@2x-8.jpg 2x
+                      "
+                      media="(min-width: 480px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/portfolio/img@1x-8.jpg 1x,
+                        ./images/tablet/portfolio/img@2x-8.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/desktop/portfolio/img@1x-8.jpg 1x,
+                        ./images/desktop/portfolio/img@2x-8.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <img
+                      src="./images/mobile/portfolio/img@1x-8.jpg"
+                      alt="Этикетка"
+                    />
+                  </picture>
                   <p class="portfolio__descr">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
@@ -356,12 +529,33 @@
             <li class="portfolio__list-item">
               <a class="portfolio__link" href="">
                 <div class="portfolio__thumb">
-                  <img
-                    src="./images/imag9.jpg"
-                    alt="Ноудбук с сайтом"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/mobile/portfolio/img@1x-9.jpg 1x,
+                        ./images/mobile/portfolio/img@2x-9.jpg 2x
+                      "
+                      media="(min-width: 480px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/portfolio/img@1x-9.jpg 1x,
+                        ./images/tablet/portfolio/img@2x-9.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/desktop/portfolio/img@1x-9.jpg 1x,
+                        ./images/desktop/portfolio/img@2x-9.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <img
+                      src="./images/mobile/portfolio/img@1x-9.jpg"
+                      alt="Ноудбук с сайтом"
+                    />
+                  </picture>
                   <p class="portfolio__descr">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
