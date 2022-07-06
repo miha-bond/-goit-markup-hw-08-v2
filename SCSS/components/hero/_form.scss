@@ -142,6 +142,11 @@
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--complementary-color);
+
+  @include desktop {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .form__treaty-link{

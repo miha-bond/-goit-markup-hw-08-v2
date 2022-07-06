@@ -715,6 +715,12 @@ img {
   letter-spacing: 0.03em;
   color: var(--complementary-color);
 }
+@media screen and (min-width: 1200px) {
+  .form__text-consent {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+}
 
 .form__treaty-link {
   padding-top: 1px;
