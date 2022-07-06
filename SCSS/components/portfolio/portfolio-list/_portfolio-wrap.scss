@@ -1,27 +1,28 @@
+
+
 .portfolio__wrap {
-    padding: 20px 24px 20px 24px;
-    background: #ffffff;
-    border-right: 1px solid #eeeeee;
-    border-bottom: 1px solid #eeeeee;
-    border-left: 1px solid #eeeeee;
-    box-sizing: border-box;
+  flex-grow: 1;
+  padding: 20px 24px 20px 24px;
+  background: #ffffff;
+  border-right: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+  box-sizing: border-box;
 
 
-      .portfolio__title {
-      color: var(--main-color);
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 2;
-        letter-spacing: 0.06em;
 
-        @include desktop {
-          font-size: 18px;
-        }
+  .portfolio__title {
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
   }
-      .portfolio__text {
-        margin-top: 4px;
-        color: var(--complementary-color);
-        font-size: 16px;
-        line-height: 1.87;
-        letter-spacing: 0.03em;
-  }}
+  .portfolio__text {
+    margin-top: 4px;
+    color: var(--complementary-color);
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+  }
+}

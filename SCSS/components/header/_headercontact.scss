@@ -37,6 +37,8 @@
     justify-content: center;
     align-items: baseline;
     align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
     color: var(--complementary-color);
     font-weight: 500;
@@ -49,6 +51,13 @@
       &:focus {
         color: var(--activ-link-but);
     }
+    &:last-child{
+      padding-top: 0;
+    }
+    &:first-child{
+      padding-bottom: 0;
+    }
+
     @include desktop {
       font-size: 14px;
       line-height: 1.15;

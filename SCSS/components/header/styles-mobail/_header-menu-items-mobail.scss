@@ -38,6 +38,11 @@
   letter-spacing: 0.02em;
   color: var(--activ-link-but);
   text-decoration: none;
+
+  @media screen and (max-width: 479px) {
+    font-size: 30px;
+    letter-spacing: 1.12;
+  }
 }
 
 .header__link-mail-mobile{
@@ -47,6 +52,11 @@
   letter-spacing: 0.02em;
   color: var(--complementary-color);
   text-decoration: none;
+
+  @media screen and (max-width: 479px) {
+    font-size: 20px;
+    letter-spacing: 1.12;
+  }
 }
 
 .header__social{

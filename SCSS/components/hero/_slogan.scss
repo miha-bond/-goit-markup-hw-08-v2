@@ -1,7 +1,6 @@
 .slogan {
     height: 400px;
-    margin-left: auto;
-    margin-right: auto;
+
     padding-top: 118px;
     padding-bottom: 118px;
     background-color: #2f303a;
@@ -29,6 +28,7 @@
     }
 
     @include desktop {
+
       height: 600px;
       padding-top: 200px;
       padding-bottom: 200px;
@@ -54,8 +54,10 @@
       text-transform: uppercase;
 
       @include desktop {
+
         font-size: 44px;
         line-height: 1.4;
+
       }
     }
 

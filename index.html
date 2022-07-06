@@ -46,7 +46,9 @@
         <nav class="header__nav-mobile" id="menu-container" data-menu>
           <ul class="header__list-nav-mobile">
             <li class="header__item-nav-mobile">
-              <a class="header__link-nav-mobile current" href="./index.html"
+              <a
+                class="header__link-nav-mobile current actual"
+                href="./index.html"
                 >Студия</a
               >
             </li>
@@ -156,13 +158,15 @@
     <main>
       <!--Cлогана и кнопка заказа-->
       <section class="slogan">
-        <h1 class="slogan__text">
-          Эффективные решения <br />
-          для вашего бизнеса
-        </h1>
-        <button class="slogan__button" type="button" data-modal-open>
-          Заказать услугу
-        </button>
+        <div>
+          <h1 class="slogan__text">
+            Эффективные решения <br />
+            для вашего бизнеса
+          </h1>
+          <button class="slogan__button" type="button" data-modal-open>
+            Заказать услугу
+          </button>
+        </div>
 
         <!--Модальное окно-->
         <div class="modal-backdrop is-hidden" data-modal>
@@ -211,7 +215,9 @@
                 <span class="form__castom-checkbox"></span>
                 <a class="form__text-consent">
                   Соглашаюсь с рассылкой и принимаю</a
-                ><a class="form__treaty-link" href="">Условия договора</a>
+                ><a class="form__treaty-link" href="" target="_blank"
+                  >Условия договора</a
+                >
               </label>
               <button class="form__button-submit" type="submit">
                 Отправить

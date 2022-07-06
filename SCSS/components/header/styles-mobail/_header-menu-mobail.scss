@@ -13,7 +13,7 @@
 .header__button-mobail{
   position: relative;
   display: block;
-  padding: 0;
+  padding: 10px;
   border: none;
   background-color: transparent;
   z-index: 3;
@@ -55,6 +55,9 @@
   @include tablet {
     display: none;
   }
+}
+.header__list-nav-mobile .actual{
+  color: var(--activ-link-but);
 }
 
 .header__nav-mobile.is-open{

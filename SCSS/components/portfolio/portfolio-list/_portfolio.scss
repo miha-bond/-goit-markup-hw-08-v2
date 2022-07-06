@@ -5,6 +5,7 @@
 
     @include tablet {
       gap: 30px;
+      display: flex;
     }
 
 
@@ -17,6 +18,7 @@
     }
 
     @include tablet {
+      display: flex;
       margin-bottom: 0;
       width: calc((100% - 30px) / 2);
     }
@@ -27,20 +29,29 @@
   }
 }
 
-  .portfolio__link{
-    display: block;
-    text-decoration: none;
-    transition: box-shodow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.portfolio__link{
+  display: block;
+  text-decoration: none;
+  transition: box-shodow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-      &:hover .portfolio__descr,
-      &:focus .portfolio__descr {
-        transform: translateY(0%);
-      }
-      &:hover,
-      &:focus{
-        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-        1px 4px 6px rgba(0, 0, 0, 0.16);
-  }}
+    &:hover .portfolio__descr,
+    &:focus .portfolio__descr {
+      transform: translateY(0%);
+    }
+
+    &:hover,
+    &:focus{
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+
+    }
+    @include tablet {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+}
+
 @import "./portfolio_thumb";
 @import "./portfolio-wrap";
 
