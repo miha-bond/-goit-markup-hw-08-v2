@@ -45,7 +45,7 @@
         color: var(--activ-link-but);
   }}
 
-  .header__list .current {
+  .current {
     color: var(--activ-link-but);
   }
   .current::after {
@@ -61,6 +61,10 @@
     content: '';
     background-color: var(--activ-link-but);
     border-radius: 2px;
+  }
+
+  @include desktop {
+    bottom: -2px;
   }
 
   }

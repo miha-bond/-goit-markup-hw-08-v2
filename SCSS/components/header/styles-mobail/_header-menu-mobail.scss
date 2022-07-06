@@ -17,6 +17,7 @@
   border: none;
   background-color: transparent;
   z-index: 3;
+  transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:active, &:hover, &:focus{
   fill: var(--activ-link-but);
@@ -55,9 +56,6 @@
   @include tablet {
     display: none;
   }
-}
-.header__list-nav-mobile .actual{
-  color: var(--activ-link-but);
 }
 
 .header__nav-mobile.is-open{

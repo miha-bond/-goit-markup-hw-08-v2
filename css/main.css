@@ -149,6 +149,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--main-color);
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header__link-nav-mobile:hover, .header__link-nav-mobile:focus {
   color: var(--activ-link-but);
@@ -241,6 +242,7 @@ img {
   border: none;
   background-color: transparent;
   z-index: 3;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header__button-mobail:active, .header__button-mobail:hover, .header__button-mobail:focus {
   fill: var(--activ-link-but);
@@ -277,10 +279,6 @@ img {
   .header__nav-mobile {
     display: none;
   }
-}
-
-.header__list-nav-mobile .actual {
-  color: var(--activ-link-but);
 }
 
 .header__nav-mobile.is-open {
@@ -339,7 +337,7 @@ img {
   color: var(--activ-link-but);
 }
 
-.header__list .current {
+.current {
   color: var(--activ-link-but);
 }
 
@@ -357,6 +355,11 @@ img {
     content: "";
     background-color: var(--activ-link-but);
     border-radius: 2px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .current::after {
+    bottom: -2px;
   }
 }
 
@@ -466,7 +469,10 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .slogan {
+    max-width: 1600px;
     height: 600px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 200px;
     padding-bottom: 200px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/desktop/BGimg@1xD-min.png);
@@ -478,6 +484,7 @@ img {
   }
 }
 .slogan__text {
+  margin-bottom: 30px;
   font-weight: 900;
   color: var(--white);
   font-size: 26px;
@@ -488,12 +495,13 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .slogan__text {
+    margin-left: auto;
+    margin-right: auto;
     font-size: 44px;
     line-height: 1.4;
   }
 }
 .slogan__button {
-  margin-top: 40px;
   width: 200px;
   height: 50px;
   font-size: 16px;
@@ -1191,7 +1199,7 @@ img {
   text-decoration: none;
   transform: translateY(101%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  overflow: scroll;
+  overflow: auto;
 }
 @media screen and (max-width: 390px) {
   .portfolio__thumb .portfolio__descr {
