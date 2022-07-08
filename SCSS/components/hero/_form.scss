@@ -88,11 +88,16 @@
 
 .form__checkbox-wraper{
   display: flex;
-  margin-bottom: 30px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+  margin-bottom: 30px;
+
+
+  @media screen and (max-width:465px) {
+    display: inline-block;
+  }
 }
 
 .form__checkbox{
@@ -112,6 +117,10 @@
   .form__checkbox:hover + &,
   .form__checkbox:focus + &{
     border: 2px solid var(--activ-link-but);
+  }
+  @media screen and (max-width:465px) {
+    display: inline-block;
+    vertical-align: middle;
   }
 
   .form__checkbox:checked + &{

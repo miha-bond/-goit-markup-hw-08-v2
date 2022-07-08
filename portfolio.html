@@ -26,6 +26,7 @@
           <button
             class="header__button-mobail"
             type="button"
+            aria-expanded="false"
             aria-controls="menu-container"
             data-menu-button
           >
@@ -142,7 +143,9 @@
             </a>
           </li>
           <li class="header__contact-item">
-            <a class="header__contact-link" href="tel:+380961111111"
+            <a
+              class="header__contact-link header__contact-tel"
+              href="tel:+380961111111"
               ><svg class="header__contact-icon" width="10" height="16">
                 <use href="./images/icon/icons.svg#tel"></use>
               </svg>
@@ -160,7 +163,9 @@
           <h1 class="filter__title title-hiding">Портфолио</h1>
           <ul class="filter__list">
             <li class="filter__list-item">
-              <button class="filter__button" type="button">Все</button>
+              <button class="filter__button current-button" type="button">
+                Все
+              </button>
             </li>
             <li class="filter__list-item">
               <button class="filter__button" type="button">Веб-сайты</button>
